@@ -142,7 +142,7 @@ async def init():
     except:
         pass
     await Vip.decorators()
-    LOGGER("VipX").info("╔═════ஜ۩۞۩ஜ════╗\n  ️MADE BY ALPJA\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("VipX").info("╔═════ஜ۩۞۩ஜ════╗\n  ️MADE BY ALPHA\n╚═════ஜ۩۞۩ஜ════╝")
     await idle()
 
 
