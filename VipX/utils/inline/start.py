@@ -36,7 +36,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="🎭 𝐎𝐖𝐍𝐄𝐑 🎭", url=f"https://t.me/TG_X_BRO",
+                text="🎭 𝐎𝐖𝐍𝐄𝐑 🎭", url=f"https://t.me/cosmic_god",
             ),
             InlineKeyboardButton(
                 text="🔰 𝐇𝐄𝐋𝐏 🔰", callback_data="settings_back_helper"
@@ -47,13 +47,13 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="🎄 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 🎄", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="🥀 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 🥀", url=f"https://t.me/VIP_CREATORS",
+                text="🥀 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 🥀", url=f"https://t.me/thejudicialNetwork",
             )
         ],
         [
             InlineKeyboardButton(
                 text="🌱ѕσʋяcɛ🌱",
-                url=f"https://github.com/THE-VIP-BOY-OP/VIP-MUSIC",
+                url=f"https://github.com/Cosmicgodalpha/Alphamusic",
             )
         ],
      ]
