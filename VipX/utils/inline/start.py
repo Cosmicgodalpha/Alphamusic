@@ -9,17 +9,17 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🕹 𝐀𝐃𝐃 𝐌𝐄 𝐅𝐀𝐒𝐓 𝐁𝐀𝐁𝐘 🕹",
+                text="🕹 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🕹",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🦋 𝐇𝐄𝐋𝐏 🦋",
+                text=" 《ʜᴇʟᴘ》 ",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="⚙️ 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒 ⚙️", callback_data="settings_helper"
+                text="⚙️ ꜱᴇᴛᴛɪɴɢꜱ ⚙️", callback_data="settings_helper"
             ),
         ],
      ]
@@ -30,29 +30,29 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🕹 𝐀𝐃𝐃 𝐌𝐄 𝐅𝐀𝐒𝐓 𝐁𝐀𝐁𝐘 🕹",
+                text="🕹 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🕹",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🎭 𝐎𝐖𝐍𝐄𝐑 🎭", url=f"https://t.me/cosmic_god",
+                text=" ᴏᴡɴᴇʀ ", url=f"https://t.me/cosmic_god",
             ),
             InlineKeyboardButton(
-                text="🔰 𝐇𝐄𝐋𝐏 🔰", callback_data="settings_back_helper"
+                text=" ʜᴇʟᴘ ", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="🎄 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 🎄", url=config.SUPPORT_GROUP
+                text=" ꜱᴜᴘᴘᴏʀᴛ ", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="🥀 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 🥀", url=f"https://t.me/thejudicialNetwork",
+                text=" ᴜᴘᴅᴀᴛᴇꜱ ", url=f"https://t.me/thejudicialNetwork",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🌱ѕσʋяcɛ🌱",
+                text=" ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ",
                 url=f"https://github.com/Cosmicgodalpha/Alphamusic",
             )
         ],
