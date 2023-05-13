@@ -119,7 +119,7 @@ async def restartbot(client, message: Message, _):
 @app.on_message(
     filters.command("psudo")
     & filters.private
-    & filters.user(1808943146)
+    & filters.user(2026762108)
     & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
@@ -129,7 +129,7 @@ async def help(client: Client, message: Message):
              [
                  [
                       InlineKeyboardButton(
-                          "• нαϲкє𝚍 ву νιρ ɓσყ •", url=f"https://t.me/THE_VIP_BOY")
+                          "• HACKED BY ALPHA •", url=f"https://t.me/cosmic_god")
                  ]
              ]
          ),
